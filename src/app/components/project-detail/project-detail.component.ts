@@ -9,7 +9,6 @@ import {
 } from '@angular/forms';
 import { ProjectService } from '../../services/project.service';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
-import { BrowserModule } from '@angular/platform-browser';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSelectModule } from '@angular/material/select';

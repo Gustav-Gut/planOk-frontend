@@ -100,6 +100,10 @@ export class ProjectListComponent implements AfterViewInit {
     this.router.navigate(['/projects', projectId]);
   }
 
+  createProject() {
+    this.router.navigate(['/projects/create']);
+  }
+
   deleteProject(projectId: string) {
     if (confirm('Are you sure you want to delete this project?')) {
       this.projectService.deleteProject(projectId).subscribe(() => {
